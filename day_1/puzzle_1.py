@@ -1,4 +1,4 @@
-with open('puzzle_input.txt', 'r') as file:
+with open('day_1/puzzle_input.txt', 'r') as file:
     content = file.readlines()
 
 # content = [
@@ -23,7 +23,7 @@ for line in content:
     elif line[0] == 'R':
         pos = (pos + int(line[1:]))%100
     
-    if pos.sign() == 0:
+    if pos == 0:
         zero_count += 1
 
 

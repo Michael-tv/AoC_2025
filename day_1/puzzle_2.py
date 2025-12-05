@@ -1,4 +1,4 @@
-with open('puzzle_input.txt', 'r') as file:
+with open('day_1/puzzle_input.txt', 'r') as file:
     content = file.readlines()
 
 # content = [
